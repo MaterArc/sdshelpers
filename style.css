@@ -9,7 +9,7 @@ nav{
   display: flex;
   height: 80px;
   width: 100%;
-  background: #1b1b1b;
+  background: #000000;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px 0 100px;
@@ -95,7 +95,7 @@ input[type="checkbox"]{
   nav ul li a.active,
   nav ul li a:hover{
     background: none;
-    color: cyan;
+    color: black;
   }
 }
 .content{
@@ -106,10 +106,28 @@ input[type="checkbox"]{
   text-align: center;
   z-index: -1;
   width: 100%;
-  padding: 0 30px;
   color: #1b1b1b;
 }
 .content div{
   font-size: 40px;
   font-weight: 700;
+  padding-top: 100px;
 }
+
+.content div h1{
+ transform:translatex(0px) translatey(-80px);
+  border: 7px dashed black
+}
+
+b {
+  text-decoration: underline;
+}
+p {
+  display: flex;
+  margin-top:-200px; 
+  margin-left: 260px;
+min-height:40px;
+  text-decoration:underline;
+  
+}
+
